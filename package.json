@@ -1,0 +1,32 @@
+{
+  "name": "blog-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "co": "^4.6.0",
+    "colors": "^1.1.2",
+    "koa": "^1.2.0",
+    "koa-body": "^1.4.0",
+    "koa-ejs": "^3.0.0",
+    "koa-generic-session": "^1.10.1",
+    "koa-redis": "^2.0.1",
+    "koa-router": "^5.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug":"devtool app.js --watch -- entry",
+    "debug-static":"devtool app.js -- entry"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LelesBox/blog-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LelesBox/blog-server/issues"
+  },
+  "homepage": "https://github.com/LelesBox/blog-server#readme"
+}
