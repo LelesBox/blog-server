@@ -9,7 +9,8 @@ module.exports = {
         console.log(pushObj)
         if (!nodash.isEmptyObject(pushObj)) {
             var commits = pushObj.commits
-            commits.forEach((item) = {})
+            console.log(commits)
+            //commits.forEach((item) = {})
         }
         this.body = "git hook"
     }
