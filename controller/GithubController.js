@@ -1,11 +1,13 @@
 /**
  * Created by blake on 3/9/16.
  */
+var nodash = require('../lib/nodash')
+
 module.exports = {
     hook: function*() {
         var pushObj = this.request.body
         console.log(pushObj)
-        if (pushObj) {
+        if (!nodash.isEmptyObject(pushObj)) {
             var commits = pushObj.commits
             commits.forEach((item) = {})
         }
