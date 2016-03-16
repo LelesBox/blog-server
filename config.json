@@ -1,0 +1,16 @@
+{
+  "readme": {
+    "author": "LelesBox",
+    "updateDateTime": "2016-03-10 22:35:04",
+    "title":"readme",
+    "summary":"这是一首简单的小博客，写着人们心中的哀歌，我想我很适合，做一个歌颂者，我也不想干活了，累",
+    "tag":["随笔","代笔"]
+  },
+  "WoDeBoKeJiShuShiJianZhiLu":{
+    "author": "LelesBox",
+    "updateDate": "2016-03-10 22:35:04",
+    "title":"我的博客技术实践之路",
+    "summary":"这是一首简单的小博客，写着人们心中的哀歌，我想我很适合，做一个歌颂者，我也不想干活了，累",
+    "tag":["随笔","代笔"]
+  }
+}
