@@ -4,20 +4,29 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "avoscloud-sdk": "^0.6.9",
     "co": "^4.6.0",
     "colors": "^1.1.2",
+    "is_js": "^0.8.0",
     "koa": "^1.2.0",
     "koa-body": "^1.4.0",
     "koa-ejs": "^3.0.0",
     "koa-generic-session": "^1.10.1",
     "koa-redis": "^2.0.1",
-    "koa-router": "^5.4.0"
+    "koa-router": "^5.4.0",
+    "shelljs": "^0.6.0",
+    "supertest": "^1.2.0",
+    "yargs": "^4.3.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "co-mocha": "^1.1.2",
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "debug":"devtool app.js --watch -- entry",
-    "debug-static":"devtool app.js -- entry"
+    "test": "mocha test/unit/*",
+    "debug": "devtool app.js --watch -- entry",
+    "debug-static": "devtool app.js -- entry"
   },
   "repository": {
     "type": "git",
